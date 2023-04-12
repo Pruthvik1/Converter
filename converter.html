@@ -29,7 +29,7 @@
        <div class="card-body">
         <div class="mb-3">
          <label for="px-input" class="form-label">Enter value in Pixels</label>
-         <input type="number" class="form-control" id="px-input" val="0" pattern="[0-9]" max="9999" onchange="convertPixels(this.value)" placeholder="0"/>
+         <input type="number" class="form-control" id="px-input" val="0" pattern="[0-9]" max="9999" oninput="convertPixels(this.value)" placeholder="0"/>
          <div class="form-text">We'll convert pixels into various possible Units.</div>
         </div>
        </div>
